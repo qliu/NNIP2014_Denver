@@ -3,6 +3,25 @@ h1.masthead-brand {
 	font-weight: bold;
 }
 
+body, html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.container, .col-md-4, .col-md-8, #de-container{
+  height:100%;
+  padding: 0;
+}
+
+.row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
 /*
 #de-tutorial {
     -moz-transform: scale(0.9, 0.9); 
@@ -19,16 +38,6 @@ h1.masthead-brand {
 */
 
 #de-container {
-    -moz-transform: scale(0.75, 0.75); 
-    -webkit-transform: scale(0.75, 0.75); 
-    -o-transform: scale(0.75, 0.75);
-    -ms-transform: scale(0.75, 0.75);
-    transform: scale(0.75, 0.75); 
-    -moz-transform-origin: top left;
-    -webkit-transform-origin: top left;
-    -o-transform-origin: top left;
-    -ms-transform-origin: top left;
-    transform-origin: top left;
 	display: block;
-	padding: 20px;
+	height: 100%;
 }
