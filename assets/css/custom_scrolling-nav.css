@@ -1,5 +1,6 @@
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow: hidden;
 }
 
 .navbar-default {
@@ -24,6 +25,13 @@ body {
     padding: 0;
     font-size: 3.5em;
     font-weight: 700;
+}
+
+.photo-credit {
+	position: absolute;
+	color: #ccc;
+	bottom: 2%;
+	right: 2%;
 }
 
 .btn-dark {
