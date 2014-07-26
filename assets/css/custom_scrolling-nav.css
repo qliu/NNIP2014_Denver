@@ -1,3 +1,11 @@
+scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
